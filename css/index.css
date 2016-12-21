@@ -1,0 +1,48 @@
+	/*header*/
+	body{width:100%; min-width:16rem; max-width:30rem; margin:0 auto;}
+	html{font-size:20px;}
+	header{width:100%; min-width:16rem; max-width:30rem; box-sizing:border-box; padding:0.5rem 1rem; height:2.5rem;}
+	header div{width:100%; height:1.5rem; display:-webkit-box; -webkit-box-align:center;-webkit-box-pack:center;}
+	header a{width:4.26rem; height:100%; display:block;}
+	header img{width:4.26rem;}
+	/*menu*/
+	.menu{padding:0 1rem; width:100%; height:3.5rem; font-size:0.7rem; background:#dcf0f4; box-sizing:border-box;}
+	.menu p{padding-top:0.6rem;}
+	.menu p span{display:block; width:4.2rem; line-height:1.2rem;  }
+	.menu div{width:4rem; height:1.75rem; margin-top:1rem; line-height:1.75rem; text-align:center; background:#fff; }
+	.menu .open{margin-left:0.5rem; }
+	.menu div a{color:red; font-weight:bold;}
+	.searchbox{width:100%; height:4.25rem; box-sizing:border-box; padding:1rem; }
+	.search{width:100%; height:2.25rem; border:1px solid #000; background:#c7edcc;}
+	.search .sear{width:1rem;  height:1rem;  background:url(../img/search.png); background-size:1rem 1rem; margin:0.5rem 0.35rem 0 0.5rem; }
+	.search .text{width:calc(100% - 1.85rem); height:100%; line-height:2.25rem;  }
+	section{padding:0 1rem; width:100%; box-sizing:border-box; }
+	section .title{margin-bottom:1.25rem; }
+	section .title h3{height:1.3rem; line-height:1.3rem; font-size:1.15rem; }
+	section .title a{height:1.3rem; line-height:1.3rem; font-size:0.85rem; color:red; }
+	section .lbt{overflow:hidden; margin:0.5rem 0 1rem; }
+	section .lbt ul{width:400%; display:-webkit-box; overflow:hidden;}
+	section .lbt li{display:-webkit-box;-webkit-box-flex:1;}
+	section .lbt li .pic{-webkit-box-flex:1; width:6.7rem; }
+	section .lbt li img{width:6.7rem; height:6rem;}
+	section .lbt li div.zw{width:0.5rem;}
+	section .lbt .controls {margin:0.3rem 0; height:0.4rem;}
+	section .lbt .controls div{width:2.8rem; margin:0 auto; }
+	section .lbt .controls div i{width:0.4rem; height:0.4rem; margin:0.1rem; border-radius:50%; border:1px solid #000; float:left;}
+	menu {margin:1rem 0;}
+	menu ul li{float:left; width:calc(100%/3); height:3.75rem; box-sizing:border-box; padding:5px ; margin-bottom: 2px; text-align:center; }
+	menu ul li a{display:block; background:#f8f7f4;}
+	menu ul li i{display:block; width:2rem; height:2rem; margin:0 auto; background:url(../img/sprit.png) no-repeat 0px 0px; background-size:cover;}
+	menu ul li span{width:100%; height:0.8rem; display:block; font-size:0.6rem; }
+	menu div{width:100%; margin:0 auto;  background:#f8f7f4; text-align:center; height:1.7rem; line-height:1.7rem; font-size:0.9rem;}
+	.con h3{height:1.3rem; line-height:1.3rem; font-size:1.15rem; margin:1.25rem 0;}
+	.con .border2{border-top:1px solid #000; border-bottom:1px solid #000; }
+	.con .border1{ border-bottom:1px solid #000; }
+	.con div{width:9rem; height:3.4rem; margin-top:0.85rem; margin-right:0.75rem; }
+	.con h4{font-size:0.9rem; line-height:2.1rem; height:1.7rem; }
+	.con p{font-size:0.6rem; line-height:1.1rem; }
+	.con img{width:4.25rem; height:4.25rem; }
+	.con .foot{width:100%; font-size:1rem; color:red; line-height:1.15rem; margin:1.25rem auto; display:block; text-align:center; }
+	section .zw1{height:3rem; }
+	footer{width:100%; height:3rem; position:fixed; bottom:0; left:0;  padding:0.5rem;box-sizing:border-box; background:yellow;}
+	footer a{display:block; line-height:2rem; text-align:center; background:red; font-size:0.85rem; color:#fff;}

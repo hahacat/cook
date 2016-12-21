@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/index.css" />
+<script>
+	(function(win,doc){
+		function change(){
+			doc.documentElement.style.fontSize=20/320*doc.documentElement.clientWidth+'px';
+		}
+		change();
+		win.addEventListener('resize',function(){
+			change();
+		},false);
+	})(window,document);
+</script>
+</head>
+<body>
+	<header>
+		<div><a href="javascript:;"><img src="img/logo.png" alt=""></a></div>
+	</header>
+	<div class="menu clearfix">
+		<p class="fl"><span>下厨房APP，</span><span>美食精华应用</span></p>
+		<div class="fr open"><a href="javascript:;">用APP打开</a></div>
+		<div class="fr download"><a href="javascript:;">立即下载</a></div>
+	</div>
+	<div class="searchbox">
+		<div class="search clearfix">
+			<span class="sear fl "></span>
+			<span class="text fl ">菜谱、食材搜索</span>
+		</div>
+	</div>
+	<section>
+		<div class="title clearfix">
+			<h3 class="fl">本周最受欢迎</h3>
+			<a href="javascript:;" class="fr">全部</a>
+		</div>
+		<div class="lbt">
+			<ul>
+				<li>
+					<div class="pic"><a href="javascript:;"><img src="img/lbt01.png" alt=""></a></div>
+					<div class="zw"></div>
+					<div class="pic"><a href="javascript:;"><img src="img/lbt02.png" alt=""></a></div>
+				</li>
+				<li>
+					<div><a href="javascript:;"><img src="img/lbt02.png" alt=""></a></div>
+					<div class="zw"></div>
+					<div><a href="javascript:;"><img src="img/lbt01.png" alt=""></a></div>
+				</li>
+				<li>
+					<div class="pic"><a href="javascript:;"><img src="img/lbt01.png" alt=""></a></div>
+					<div class="zw"></div>
+					<div class="pic"><a href="javascript:;"><img src="img/lbt02.png" alt=""></a></div>
+				</li>
+				<li>
+					<div><a href="javascript:;"><img src="img/lbt02.png" alt=""></a></div>
+					<div class="zw"></div>
+					<div><a href="javascript:;"><img src="img/lbt01.png" alt=""></a></div>
+				</li>
+			</ul>
+			<div class="controls">
+				<div class="clearfix">
+					<i class="active"></i>
+					<i></i>
+					<i></i>
+					<i></i>
+				</div>
+			</div>
+		</div>
+		<menu>
+			<ul class="clearfix">
+				<li><a href="javascript:;"><i></i><span>家常菜</span></a></li>
+				<li><a href="javascript:;"><i></i><span>快手菜</span></a></li>
+				<li><a href="javascript:;"><i></i><span>下饭菜</span></a></li>
+				<li><a href="javascript:;"><i></i><span>早餐</span></a></li>
+				<li><a href="javascript:;"><i></i><span>肉</span></a></li>
+				<li><a href="javascript:;"><i></i><span>鱼</span></a></li>
+			</ul>
+			<div>全部菜谱分类</div>
+		</menu>
+		<div class="con">
+			<h3>榜单</h3>
+			<ul>
+				<li class="border2 class= clearfix">
+					<div class="fl">
+						<h4>编辑选新</h4>
+						<p>新的创建的菜谱，编辑每日精选</p>
+					</div>
+					<a href="javascript:;" class="fr"><img src="img/001.jpg" alt=""></a>
+				</li>
+				<li class="border1 class= clearfix">
+					<div class="fl">
+						<h4>编辑选新</h4>
+						<p>新的创建的菜谱，编辑每日精选</p>
+					</div>
+					<a href="javascript:;" class="fr"><img src="img/001.jpg" alt=""></a>
+				</li>
+				<li class="border1 class= clearfix">
+					<div class="fl">
+						<h4>编辑选新</h4>
+						<p>新的创建的菜谱，编辑每日精选</p>
+					</div>
+					<a href="javascript:;" class="fr"><img src="img/001.jpg" alt=""></a>
+				</li>
+				<li class="border1 class= clearfix">
+					<div class="fl">
+						<h4>编辑选新</h4>
+						<p>新的创建的菜谱，编辑每日精选</p>
+					</div>
+					<a href="javascript:;" class="fr"><img src="img/001.jpg" alt=""></a>
+				</li>
+			</ul>
+			<a href="javascript:;" class="foot">去下厨房APP看全部榜单</a>
+		</div>
+		<div class="zw1"></div>
+	</section>
+	<footer>
+		<a href="javascript:;">下载App，领20元红包</a>
+	</footer>
+</body>
+</html>
